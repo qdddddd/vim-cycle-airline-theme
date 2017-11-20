@@ -1,10 +1,6 @@
 " CycleAirlineTheme.vim
 " cycle through available AirlineThemes
 "
-" TODO:  Allow selecting the scheme from a list (like csExplorer.vim).
-"        Notification of same-named schemes in different directories.
-"        Allow blacklisting specific AirlineTheme files.
-
 let s:schemes = "\n".globpath(&rtp, "autoload/airline/themes/*.vim")."\n"
 let s:currentfile = ""
 let s:currentname = ""
